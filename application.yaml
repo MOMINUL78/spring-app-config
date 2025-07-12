@@ -13,5 +13,5 @@ okta:
     #audience: api://default
     resourceserver:
       jwt:
-        issuer-uri: https://dev-27796049.okta.com/oauth2/default
+        issuer: https://dev-27796049.okta.com/oauth2/default
         audience: api://default
