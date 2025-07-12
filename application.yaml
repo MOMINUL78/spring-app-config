@@ -9,9 +9,9 @@ eureka:
 
 # okta:
 #   oauth2:
-#     issuer: https://dev-27796049.okta.com/oauth2/default
-#     audience: api://default
-#     # resourceserver:
-#     #   jwt:
-#     #     issuer: https://dev-27796049.okta.com/oauth2/default
-#     #     audience: api://default
+#     #issuer: https://dev-27796049.okta.com/oauth2/default
+#     #audience: api://default
+#     resourceserver:
+#       jwt:
+#         issuer: https://dev-27796049.okta.com/oauth2/default
+#         audience: api://default
