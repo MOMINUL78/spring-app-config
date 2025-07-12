@@ -9,7 +9,9 @@ eureka:
 
 okta:
   oauth2:
-    resourceserver:
-      jwt:
-        issuer-uri: https://dev-27796049.okta.com/oauth2/default
-        #audience: api://default
+    issuer-uri: https://dev-27796049.okta.com/oauth2/default
+    audience: api://default
+    # resourceserver:
+    #   jwt:
+    #     issuer-uri: https://dev-27796049.okta.com/oauth2/default
+    #     audience: api://default
