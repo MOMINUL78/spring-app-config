@@ -15,3 +15,7 @@ okta:
     #   jwt:
     #     issuer: https://dev-27796049.okta.com/oauth2/default
     #     audience: api://default
+
+spring:
+  zipkin:
+  baseurl: http://zipkin:9411
