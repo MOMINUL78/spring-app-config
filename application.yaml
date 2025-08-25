@@ -18,4 +18,4 @@ okta:
 
 spring:
   zipkin:
-  baseurl: http://zipkin:9411
+    baseurl: http://zipkin:9411
